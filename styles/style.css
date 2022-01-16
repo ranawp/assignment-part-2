@@ -177,6 +177,34 @@ section3 ended
     line-height: 1.5;
 }
 
+.sign-up{
+    height: 9rem;
+    box-shadow:0 3px 10px grey;
+    display: flex;
+    width: 60rem;
+    margin: 5rem  auto;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.sign-up-left, .sign-up-right{
+    margin: auto 0;
+}
+
+input[type="email"] {
+    padding: 5px 5px;
+    border-radius: 9px;
+}
+
+.signup-form button{
+   
+    background-color: #E02C6D;
+    padding: 6px 6px;
+    border: #E02C6D;
+    color: white;
+    border-radius: 0.188rem;
+}
+
 /*-------------------
  section6 started
  -------------------- */
@@ -247,12 +275,22 @@ font-family: 'Raleway', sans-serif;
     .section5{
         width:95%;
     }
+
+    /* sign-up-section */
+    .sign-up{
+        width: 90%;
+    }
+
+
+
 /* footer started */
     .section6 h1{
         font-size: 27px;
         margin-top: 1rem;
     }
 }
+
+
 
 
 @media only screen and (max-width: 996px){
@@ -291,6 +329,10 @@ font-family: 'Raleway', sans-serif;
     }
     .collection-photos img{
         width: 100%;
+    }
+     /* sign-up-section */
+     .sign-up{
+        width: 90%;
     }
 
 /* section-5 started */
@@ -362,6 +404,14 @@ font-family: 'Raleway', sans-serif;
     .right-feature-div{
         margin-left: 1rem;
     }
+
+     /* sign-up-section */
+  .sign-up-left h2{
+      font-size: 22px;
+  }
+
+
+
     /* footer started */
     .section6 h1{
         font-size: 25px;
@@ -409,14 +459,11 @@ mobile device media quairy
   
     }
     .section2-camera .main-camera{
-        
-
         width: 47%;
         height: 87%;
         align-items: center;
         margin: 0 9rem;
         display: block;
-      
     }
     .left-section{
         width: 98%;
@@ -456,6 +503,15 @@ mobile device media quairy
     .section4 h3 a{
        right: 137px;
     }
+
+    /* sign-up-section */
+  .sign-up-left h2{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.signup-form button{
+    margin-top:10px ;
+}
     /* section5 started */
     .section5{
         margin: 2rem 2rem;
