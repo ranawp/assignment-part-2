@@ -20,12 +20,21 @@
 }
 .menu-bar ul li{
     display: inline;
-    margin-right: 0.625rem;
+    padding-right: 20px;
     list-style: none;
+ 
 }
 .menu-bar ul a{
     text-decoration: none;
     color: black;
+    
+}
+.menu-bar ul li:hover{
+    color:#E02C6D;
+
+    
+    
+   
 }
 /*---------------- 
 section 2 started
