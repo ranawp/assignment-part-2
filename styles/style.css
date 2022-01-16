@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Poppins:wght@300;400;500&family=Raleway:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------
+ header style
+ ------------------ */
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.header-section{
+    display: flex;
+    height: 3.125rem;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+    
+}
+.menu-bar ul li{
+    display: inline;
+    margin-right: 0.625rem;
+    list-style: none;
+}
+.menu-bar ul a{
+    text-decoration: none;
+    color: black;
+}
+/*---------------- 
+section 2 started
+------------------*/
+
+.section-2{
+    max-width: 60rem;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+}
+.influencer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    margin: auto 0;
+    font-family: 'Raleway', sans-serif;   
+}
+.left-section-info{
+    margin: auto 0;
+}
+
+.left-section-info p{
+    line-height: 1.5;
+}
+
+.preebook-button{
+    background-color: #E02C6D;
+    border-radius: 1.25rem;
+    padding: 0.625rem 1.875rem;
+    color: white;
+    border:  #E02C6D;
+    margin-top: 0.813rem;
+}
+
+.section2-camera{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.circle-image{
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.main-camera{
+    height:19rem;
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*----------------- 
+section2 end
+--------------- */
+
+/*-------------------
+ section3 started
+ ------------------ */
+.section3{
+    max-width: 60rem;
+    margin: 6rem auto;
+}
+.section3 hr{
+    margin:1.25rem;
+    background-color: gray;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------------ 
+section3 ended
+------------ */
+
+/*----------------
+ section4 started
+ --------------- */
+.section4{
+    max-width: 60rem;
+    margin: 0px auto;
+    position: relative;
+}
+.section4 h1{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+.ratting-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star, .fa-star-half-alt{
+    color: orange;
+    font-size: 0.4rem;
+    
+}
+.ratting-info p{
+    padding-left: 0.5rem;
+}
+.collection-photo{
+    padding: 0.625rem;
+   
+    box-shadow: 0 0.188rem 0.813rem gray;
+    border-radius: 0.938rem;
+}
+.collection-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5.5rem;
+    margin-bottom: 0.938rem;
+}
+.see-more-button{
+    text-decoration: none;
+    color: #E02C6D;
+    position: absolute;
+    right: 0.313rem;
+   
+}
+
+/*------------
+ section-5 started
+ ------------------ */
+
+.section5{
+    max-width: 60rem;
+    margin:8.5rem auto 3.125rem auto;
+
+}
+.feature-div{
+    display: flex;
+}
+.right-feature-div{
+    margin: auto 0 auto 6rem;
+}
+.right-feature-div button{
+    background-color: #E02C6D;
+    padding: 0.625rem 0.938rem;
+    border: #E02C6D;
+    color: white;
+    border-radius: 0.188rem;
+    margin-top: 0.938rem;
+}
+.right-feature-div p{
+    line-height: 1.5;
+}
+
+/*-------------------
+ section6 started
+ -------------------- */
+footer{
+    background-color: rgb(19, 19, 34);
+    height: 9rem;
+    text-align: center;
+    color: white;
+    
+font-family: 'Raleway', sans-serif;
+}
+.section6{
+    padding: 1rem 0;
+    
+}
+.section-icon i{
+    color: white;
+    margin-top: 0.5rem;
+    
+}
+
+/* -----------
+media quairy
+--------------  */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 97%;
+    }
+    .header-section{
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .header-section .logo h3{
+        text-align: center;
+    }
+    .header-section .menu-bar{
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    /* section2 media quary */
+    .influencer-section{
+        flex-direction: column-reverse;
+    }
+    .section2-camera .circle-image{
+        
+
+        width: 42%;
+        height: 93%;
+        /* align-items: center; */
+        margin: 0 auto;
+        display: block;
+        border: 1px solid red;
+    }
+    .section2-camera .main-camera{
+        
+
+        width: 42%;
+        height: 93%;
+        /* align-items: center; */
+        margin: 0 9rem;
+        /* display: block; */
+        border: 1px solid red;
+    }
+    .left-section{
+        width: 98%;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .left-section-info h1{
+        font-size: 25px;
+    }
+
+    /* section3 started */
+    .section3{
+        width: 91%;
+    }
+    .company-logo img{
+        width: 11%;
+    }
+
+    /* section4 started */
+    .section4{
+        margin-top: -4rem ;
+        width: 100%;
+    }
+    .collection-photos{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        grid-gap: 44px;
+        align-items: center;
+       
+    }
+    .section4 h1{
+        margin-bottom: 2rem;
+    }
+    .section4 h3 a{
+       right: 137px;
+    }
+    /* section5 started */
+    .section5{
+        margin: 3rem auto;
+        width: 98%;
+    }
+    .feature-div{
+        flex-direction: column-reverse;
+    }
+    .left-side-feature{
+        margin:2rem auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
